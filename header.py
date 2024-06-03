@@ -43,7 +43,7 @@ def main():
 
                     - **About:** *Chatbot with Groq*
                     
-                    - **Model:** *Llama3, Llama2, Mixtral, Gemma with Groq backend*
+                    - **Model:** *Llama3, Llama2, Mixtral, Gemma*
                     
                     - **Language:** *English*
                     
