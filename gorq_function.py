@@ -20,7 +20,7 @@ def Gorq_function(model_name = "llama3-70b-8192"):
     original = Image.open("Image1/tony.jpg")
     col1.image(original, use_column_width=True)
     col1.info(":blue[Hey, I'm from groq! Happy to help you!] 😊")
-    container_11 = col2.container(height = 350, border = False)
+    container_11 = col2.container(height = 390, border = False)
     
     ################################################
     
