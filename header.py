@@ -56,7 +56,7 @@ def main():
     if show_advanced_info_2:
         st.sidebar.info("""
                     
-                    *This appplication has been created by [:blue[Parth Patit]](https://www.linkedin.com/in/dipankar-porey-403320259/), 
+                    *This appplication has been created by [:blue[Partha Pratim Das]](https://www.linkedin.com/in/partha-pratim-das-577a5021b), 
                     Technology Consultant, Senior at Ernst & Young LLP.* 
                     
                     """)
