@@ -34,8 +34,8 @@ def Gorq_function(model_name = "llama3-70b-8192"):
     with container_11:
 
         for message_s in st.session_state.messages_temp_F:
-            if message_s["role"] == "Dipankaruser":
-                message(message_s["content"], is_user = True, key = str(k) + '_user', avatar_style = "initials", seed = "Dipankar Porey")
+            if message_s["role"] == "Parthauser":
+                message(message_s["content"], is_user = True, key = str(k) + '_user', avatar_style = "initials", seed = "Partha Pratim Das")
             elif message_s["role"] == "Gorqassistant":
                 message(message_s["content"], key = str(k), avatar_style = "initials", seed = "Tony", allow_html = True)
             k += 1
@@ -50,10 +50,10 @@ def Gorq_function(model_name = "llama3-70b-8192"):
         
         with container_11:
             
-            st.session_state.messages_temp_F.append({"role": str("Dipankar")+"user", "content": prompt})
+            st.session_state.messages_temp_F.append({"role": str("Partha")+"user", "content": prompt})
             
 
-            message(prompt, is_user = True, key = str(k) + '_user', avatar_style = "initials", seed = "Dipankar Porey")
+            message(prompt, is_user = True, key = str(k) + '_user', avatar_style = "initials", seed = "Partha Pratim Das")
 
             k += 1
             full_response = ""
