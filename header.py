@@ -57,7 +57,7 @@ def main():
         st.sidebar.info("""
                     
                     *This appplication has been created by [:blue[Partha Pratim Das]](https://www.linkedin.com/in/partha-pratim-das-577a5021b), 
-                    Technology Consultant, Senior at Ernst & Young LLP.* 
+                     Consultant, Senior at Ernst & Young LLP.* 
                     
                     """)
 
